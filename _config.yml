@@ -1,0 +1,7 @@
+title: SensorFu
+
+theme: minima
+
+exclude:
+- README.md
+- LICENSE
