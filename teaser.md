@@ -1,6 +1,10 @@
 # Teaser Campaign
 
-Here we plan the teaser campaign. Few planned campaign principles first.
+Howdy stranger! Congratulations! You've found our secret we so
+rigorously guarded! What ever you do - DON'T TELL ANYONE!
+Like... don't share this in Twitter. #sensorfuleaks
+
+Here we plan the teaser campaign. Planned campaign principles first:
 
 * Drop information in digestible sizes.
 * Reflect ongoing activity in the web page?
