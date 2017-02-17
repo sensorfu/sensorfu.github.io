@@ -5,4 +5,4 @@ theme: minima
 exclude:
 - README.md
 - LICENSE
-- teaser.md
+- campaign

@@ -7,11 +7,11 @@ Like... don't share this in Twitter. #sensorfuleaks
 Here we plan the teaser campaign. Planned campaign principles first:
 
 * Drop information in digestible sizes.
-* Reflect ongoing activity in the web page?
+* Reflect ongoing activity in the web page
 
 ## Round 001 - Break out
 
-*Have you seen a jail which forcuses on preventing break-ins?*
+*Have you seen a jail which focuses on preventing break-ins?*
 
 * An animation of a man breaking out from the box.
   * Original <https://www.youtube.com/watch?v=efexDg5q7Dw>
@@ -23,6 +23,8 @@ Here we plan the teaser campaign. Planned campaign principles first:
 * Introduce the Red theme by switching the top-border and animation color.
 
 ![red](red.jpg)
+
+ * Or: <http://codeincomplete.com/games/breakout/>
 
 ## Material for next rounds
 
