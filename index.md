@@ -7,7 +7,7 @@ layout: default
 <!-- markdownlint-disable MD036 -->
 ![Breakout](beacon.gif)
 
-*Captors placed a Beacon inside to make sure the wall is solid.*
+*Mikko's beacon will help him to seal his sandbox.*
 <!-- markdownlint-enable MD041 -->
 <!-- markdownlint-enable MD013 -->
 <!-- markdownlint-enable MD036 -->
