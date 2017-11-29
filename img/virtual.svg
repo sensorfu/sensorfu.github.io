@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 691 586" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-837.733,0)">
+        <g id="cloud" transform="matrix(1.07945,0,0,0.861876,837.733,0)">
+            <rect x="0" y="0" width="640" height="679" style="fill:none;"/>
+            <g transform="matrix(30.5163,0,0,38.4254,-11733.5,-20572.9)">
+                <path d="M391.84,540.91C391.419,540.581 390.891,540.386 390.317,540.386C388.966,540.386 387.866,541.47 387.832,542.821C386.437,543.347 385.444,544.701 385.444,546.287C385.444,548.161 386.829,549.71 388.626,549.954L388.626,549.988L401.356,549.988L401.356,549.982C403.131,549.878 404.538,548.398 404.538,546.587C404.538,544.84 403.229,543.401 401.544,543.208C401.551,543.102 401.555,542.994 401.555,542.886C401.555,540.179 399.284,537.985 396.483,537.985C394.41,537.985 392.627,539.187 391.84,540.91" style="fill:none;stroke:rgb(35,31,32);stroke-width:0.25px;"/>
+            </g>
+            <g id="both-beacons" transform="matrix(1.01469,0,0,1.04714,5.4759,225.393)">
+                <g id="Beacon-logo" transform="matrix(-0.164915,0,0,0.200147,480.779,251.505)">
+                    <g id="both-beacons1" serif:id="both-beacons">
+                        <clipPath id="_clip1">
+                            <rect id="Beacon-logo1" serif:id="Beacon-logo" x="-481.534" y="-703.203" width="795.047" height="768.65"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip1)">
+                            <g transform="matrix(1,0,0,1,-1181.1,-885.827)">
+                                <g id="Layer-1" serif:id="Layer 1" transform="matrix(4.16667,0,0,4.16667,0,0)">
+                                    <g transform="matrix(1,0,0,1,309.769,98.3419)">
+                                        <path d="M0,127.025C35.4,117.066 56.101,80.166 46.142,44.765C36.511,10.526 1.677,-9.957 -32.628,-2.255L-27.198,17.048C-3.528,12.306 20.245,26.563 26.889,50.181C33.86,74.965 19.369,100.801 -5.415,107.771C-30.2,114.744 -56.036,100.252 -63.007,75.467L-82.26,80.882C-72.303,116.283 -35.401,136.982 0,127.025" style="fill:rgb(82,128,148);fill-rule:nonzero;"/>
+                                    </g>
+                                    <g>
+                                        <g transform="matrix(1,0,0,1,225.746,98.4849)">
+                                            <path d="M0,72.402L19.473,66.924C17.605,46.545 29.402,26.977 48.667,19.309L43.236,0C13.386,10.801 -4.604,41.313 0,72.402" style="fill:rgb(237,28,36);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,198.289,71.1256)">
+                                            <path d="M0,107.485L19.359,102.039C13.574,66.494 34.153,31.39 68.427,19.303L62.998,0C18.115,15.135 -8.664,61.278 0,107.485" style="fill:rgb(180,24,30);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,259.025,167.044)">
+                                            <path d="M0,-103.959L-5.419,-123.224C-65.335,-103.801 -100.909,-42.025 -88.106,19.265L-68.802,13.835C-78.68,-36.815 -49.309,-87.558 0,-103.959" style="fill:rgb(150,22,25);fill-rule:nonzero;"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="both-beacons2" serif:id="both-beacons" transform="matrix(1.01469,0,0,1.04714,-125.924,29.2743)">
+                <g id="Beacon-logo2" serif:id="Beacon-logo" transform="matrix(-0.164915,0,0,0.200147,480.779,251.505)">
+                    <g id="both-beacons3" serif:id="both-beacons">
+                        <clipPath id="_clip2">
+                            <rect id="Beacon-logo3" serif:id="Beacon-logo" x="-481.534" y="-703.203" width="795.047" height="768.65"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip2)">
+                            <g transform="matrix(1,0,0,1,-1181.1,-885.827)">
+                                <g id="Layer-11" serif:id="Layer 1" transform="matrix(4.16667,0,0,4.16667,0,0)">
+                                    <g transform="matrix(1,0,0,1,309.769,98.3419)">
+                                        <path d="M0,127.025C35.4,117.066 56.101,80.166 46.142,44.765C36.511,10.526 1.677,-9.957 -32.628,-2.255L-27.198,17.048C-3.528,12.306 20.245,26.563 26.889,50.181C33.86,74.965 19.369,100.801 -5.415,107.771C-30.2,114.744 -56.036,100.252 -63.007,75.467L-82.26,80.882C-72.303,116.283 -35.401,136.982 0,127.025" style="fill:rgb(82,128,148);fill-rule:nonzero;"/>
+                                    </g>
+                                    <g>
+                                        <g transform="matrix(1,0,0,1,225.746,98.4849)">
+                                            <path d="M0,72.402L19.473,66.924C17.605,46.545 29.402,26.977 48.667,19.309L43.236,0C13.386,10.801 -4.604,41.313 0,72.402" style="fill:rgb(237,28,36);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,198.289,71.1256)">
+                                            <path d="M0,107.485L19.359,102.039C13.574,66.494 34.153,31.39 68.427,19.303L62.998,0C18.115,15.135 -8.664,61.278 0,107.485" style="fill:rgb(180,24,30);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,259.025,167.044)">
+                                            <path d="M0,-103.959L-5.419,-123.224C-65.335,-103.801 -100.909,-42.025 -88.106,19.265L-68.802,13.835C-78.68,-36.815 -49.309,-87.558 0,-103.959" style="fill:rgb(150,22,25);fill-rule:nonzero;"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="both-beacons4" serif:id="both-beacons" transform="matrix(1.01469,0,0,1.04714,-343.718,202.583)">
+                <g id="Beacon-logo4" serif:id="Beacon-logo" transform="matrix(-0.164915,0,0,0.200147,480.779,251.505)">
+                    <g id="both-beacons5" serif:id="both-beacons">
+                        <clipPath id="_clip3">
+                            <rect id="Beacon-logo5" serif:id="Beacon-logo" x="-481.534" y="-703.203" width="795.047" height="768.65"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip3)">
+                            <g transform="matrix(1,0,0,1,-1181.1,-885.827)">
+                                <g id="Layer-12" serif:id="Layer 1" transform="matrix(4.16667,0,0,4.16667,0,0)">
+                                    <g transform="matrix(1,0,0,1,309.769,98.3419)">
+                                        <path d="M0,127.025C35.4,117.066 56.101,80.166 46.142,44.765C36.511,10.526 1.677,-9.957 -32.628,-2.255L-27.198,17.048C-3.528,12.306 20.245,26.563 26.889,50.181C33.86,74.965 19.369,100.801 -5.415,107.771C-30.2,114.744 -56.036,100.252 -63.007,75.467L-82.26,80.882C-72.303,116.283 -35.401,136.982 0,127.025" style="fill:rgb(82,128,148);fill-rule:nonzero;"/>
+                                    </g>
+                                    <g>
+                                        <g transform="matrix(1,0,0,1,225.746,98.4849)">
+                                            <path d="M0,72.402L19.473,66.924C17.605,46.545 29.402,26.977 48.667,19.309L43.236,0C13.386,10.801 -4.604,41.313 0,72.402" style="fill:rgb(237,28,36);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,198.289,71.1256)">
+                                            <path d="M0,107.485L19.359,102.039C13.574,66.494 34.153,31.39 68.427,19.303L62.998,0C18.115,15.135 -8.664,61.278 0,107.485" style="fill:rgb(180,24,30);fill-rule:nonzero;"/>
+                                        </g>
+                                        <g transform="matrix(1,0,0,1,259.025,167.044)">
+                                            <path d="M0,-103.959L-5.419,-123.224C-65.335,-103.801 -100.909,-42.025 -88.106,19.265L-68.802,13.835C-78.68,-36.815 -49.309,-87.558 0,-103.959" style="fill:rgb(150,22,25);fill-rule:nonzero;"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
