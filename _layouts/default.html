@@ -7,15 +7,11 @@
 
     {% include nav.html %}
     {% include header.html %}
-    <!-- Page Content -->
 
-    {% include challenge.html %}
-    {% include howitworks.html %}
-    {% include easytodeploy.html %}
-    {% include getstarted.html %} 
-    {% include madeby.html %}
-  {% include footer.html %}
-  {% include scripts.html %}
+    {{content}}
+
+    {% include footer.html %}
+    {% include scripts.html %}
   </body>
 
 </html>
