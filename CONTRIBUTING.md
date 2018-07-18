@@ -1,18 +1,9 @@
 # CONTRIBUTING
 
-## Install Deps
-
-```bundle install --path vendor/bundle```
-
-## Pull request workflow
-
-We recommend you use pull requests.
-
-### Create Branch
-
+* ```bundle install --path vendor/bundle```
 * ```git checkout -b contributing```
-* edit
-* Check the site: ```bundle exec jekyll serve``` - the site will is at <http://localhost:4000>
-* ```git push```
-
-
+* Edit
+* Check the site: ```bundle exec jekyll liveserve``` - the site is at <http://localhost:4000>
+* ```git push --set-upstream origin contributing```
+* Go to GitHub and create a pull request
+* Ask feedback for your pull request
