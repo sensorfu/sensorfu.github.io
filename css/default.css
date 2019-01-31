@@ -1,0 +1,47 @@
+body {
+    font-family: 'Lato', sans-serif;
+	padding-top: 59px; /* Move content below navbar */
+}
+
+.bg-dark {
+	background-color: #001 !important;
+}
+
+.darker {
+	margin: 4em 0 4em 0;
+	padding: 4em;
+	background-color: #131525;
+	color: #fff;
+}
+
+.darker2 {
+	margin: 4em 0 4em 0;
+	padding: 4em;
+	background-color: #528093;
+	color: #fff;
+}
+
+.darker3 {
+	margin: 4em 0 4em 0;
+	padding: 4em;
+	background-color: #eee;
+	color: #222;
+}
+
+.darker a:link,
+.darker a:visited,
+.darker2 a:link,
+.darker2 a:visited {
+	color: #fff;
+	font-weight: bold;
+}
+
+.contactus {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 991px) {
+	body {
+		padding-top: 56px; /* Move content below navbar */
+	}
+}
