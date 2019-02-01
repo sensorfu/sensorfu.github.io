@@ -2,27 +2,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="SensorFu Ltd">
-    
+
     <title>{{ page.title }}</title>
-    
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Animate.css -->
     <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
-    
+
     <!-- Custom fonts for this template -->
     <link href="css/latoweb.css" rel="stylesheet">
-    
+
     {% if page.custom_style == "frontpage" %}
         <link href="css/frontpage.css" rel="stylesheet">
     {% else %}
         <link href="css/default.css" rel="stylesheet">
     {% endif %}
-    
+
     <!-- Favicon -->
     <link href="favicon.png" rel="icon" type="image/png">
-    
+
+    <!-- Open Graph Tags-->
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+
+    {% if page.ogimage %}
+        <meta property="og:image" content="{{ page.ogimage | absolute_url }}">
+    {%endif %}
+
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+        <meta property="og:description" content="{{ page.description }}">
+    {% endif %}
+
+    <!-- Twitter meta tags -->
+    <meta name="twitter:creator" content="@sensorfu">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6903210-4"></script>
     <script>
