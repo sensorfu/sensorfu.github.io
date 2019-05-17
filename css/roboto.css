@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/vendor/roboto/roboto-v19-latin-regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('/vendor/roboto/roboto-v19-latin-regular.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/roboto/roboto-v19-latin-regular.woff2') format('woff2'),
+         url('/vendor/roboto/roboto-v19-latin-regular.woff') format('woff'),
+         url('/vendor/roboto/roboto-v19-latin-regular.ttf') format('truetype'),
+         url('/vendor/roboto/roboto-v19-latin-regular.svg#Roboto') format('svg');
+  }
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.eot');
+    src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+         url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.eot?#iefix') format('embedded-opentype'),
+         url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.woff2') format('woff2'),
+         url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.woff') format('woff'),
+         url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.ttf') format('truetype'),
+         url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.svg#RobotoCondensed') format('svg');
+  }
