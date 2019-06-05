@@ -26,18 +26,34 @@ h4, h5, h6 {
 /* Buttons */
 .btn {
 	font-family: "Roboto";
+	text-transform: uppercase;
+}
+
+.btn + .btn {
+	margin-left: 0.25rem;
 }
 
 .btn-primary {
 	background: #568ba2;
 	border-color: #568ba2;
-	text-transform: uppercase;
 }
 
 .btn-primary:hover,
 .btn-primary:not(:disabled):not(.disabled):active {
 	background: darken(#568ba2, 10%);
 	border-color: darken(#568ba2, 10%);
+}
+
+.btn-outline-primary {
+	border-color: #568ba2;
+	color: #568ba2;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+	background: transparent;
+	border-color: darken(#568ba2, 10%);
+	color: darken(#568ba2, 10%);
 }
 
 /* Page */
