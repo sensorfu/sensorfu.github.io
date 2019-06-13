@@ -1,6 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
-	padding-top: 59px; /* Move content below navbar */
+	padding-top: 75px; /* Move content below navbar */
 }
 
 .bg-dark {
@@ -42,6 +42,6 @@ body {
 
 @media screen and (max-width: 991px) {
 	body {
-		padding-top: 56px; /* Move content below navbar */
+		padding-top: 75px; /* Move content below navbar */
 	}
 }
