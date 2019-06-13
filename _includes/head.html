@@ -6,28 +6,28 @@
     <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animate.css -->
-    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="{{ site.url }}/vendor/animate.css/animate.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     {% if page.custom_style == "campaign" %}
-        <link href="css/roboto.css" rel="stylesheet">
+        <link href="{{ site.url }}/css/roboto.css" rel="stylesheet">
     {% else %}
-        <link href="css/latoweb.css" rel="stylesheet">
+        <link href="{{ site.url }}/css/latoweb.css" rel="stylesheet">
     {% endif %}
 
     {% if page.custom_style == "frontpage" %}
-        <link href="css/frontpage.css" rel="stylesheet">
-    {% else if page.custom_style == "campaign" %}
-        <link href="css/campaign.css" rel="stylesheet">
+        <link href="{{ site.url }}/css/frontpage.css" rel="stylesheet">
+    {% elsif page.custom_style == "campaign" %}
+        <link href="{{ site.url }}/css/campaign.css" rel="stylesheet">
     {% else %}
-        <link href="css/default.css" rel="stylesheet">
+        <link href="{{ site.url }}/css/default.css" rel="stylesheet">
     {% endif %}
 
     <!-- Favicon -->
-    <link href="favicon.png" rel="icon" type="image/png">
+    <link href="{{ site.url }}/favicon.png" rel="icon" type="image/png">
 
     <!-- Open Graph Tags-->
     <meta property="og:title" content="{{ page.title }}">
