@@ -4,9 +4,18 @@ From: https://getbootstrap.com/
 
 ```console
 $ cd vendor
-$ curl -LO https://github.com/twbs/bootstrap/releases/download/v4.2.1/bootstrap-4.2.1-dist.zip
-$ unzip bootstrap-4.2.1-dist.zip
-$ mv bootstrap-4.2.1-dist bootstrap
+$ curl -LO https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip
+$ unzip bootstrap-4.3.1-dist.zip
+$ mv bootstrap-4.3.1-dist bootstrap
+```
+
+## Update
+
+```console
+$ git rm -r bootstrap
+$ unzip bootstrap-4.3.1-dist.zip
+$ mv bootstrap-4.3.1-dist bootstrap
+$ git add bootstrap
 ```
 
 # jQuery
@@ -16,7 +25,7 @@ From: https://jquery.com/
 ```console
 $ cd vendor
 $ mkdir jquery
-$ curl -o jquery/jquery.min.js https://code.jquery.com/jquery-3.3.1.min.js
+$ curl -o jquery/jquery.min.js https://code.jquery.com/jquery-3.4.1.min.js
 ```
 
 # jQuery-easing
