@@ -12,17 +12,11 @@ In this whitepaper about SensorFu Beacon:
 
 Download: [SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf](SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf)
 
-<hr>
-
-### Contact us
-
-<div>
-<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3977796.js"></script>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "3977796",
-	formId: "16afb0e9-891d-4cd6-a967-0e108d286e0a"
-});
-</script>
-</div>
+<iframe
+    src="/whitepapers/hubspot.html"
+    width="100%"
+    height="1000px"
+    style="border: 0;"
+    sandbox="allow-scripts allow-same-origin allow-forms"
+>
+</iframe>
