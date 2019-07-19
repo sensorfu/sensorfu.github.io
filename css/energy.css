@@ -230,21 +230,8 @@ a {
     display: none;
 }
 
-.product--collapsed .product-details {
-    height: 7rem;
-    overflow: hidden;
-    position: relative;
-}
-
-.product--collapsed .product-details::after {
-    background: linear-gradient(180deg, transparent, #f6f8f9);
-    bottom: 0;
-    content: '';
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+.product--collapsed .product-details-hidden {
+    display: none;
 }
 
 .product--collapsed .product-details-toggle {
@@ -254,6 +241,7 @@ a {
 
 @media screen and (max-width: 1023.98px) {
     /* SECTIONS */
+
     .section {
         padding: 6rem 0;
     }
