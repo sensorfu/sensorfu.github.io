@@ -1,3 +1,17 @@
+/* roboto-300 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/vendor/roboto/roboto-v19-latin-300.eot');
+  src: local('Roboto Light'), local('Roboto-Light'),
+       url('/vendor/roboto/roboto-v19-latin-300.eot?#iefix') format('embedded-opentype'),
+       url('/vendor/roboto/roboto-v19-latin-300.woff2') format('woff2'),
+       url('/vendor/roboto/roboto-v19-latin-300.woff') format('woff'),
+       url('/vendor/roboto/roboto-v19-latin-300.ttf') format('truetype'),
+       url('/vendor/roboto/roboto-v19-latin-300.svg#Roboto') format('svg');
+}
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -9,7 +23,7 @@
          url('/vendor/roboto/roboto-v19-latin-regular.woff') format('woff'),
          url('/vendor/roboto/roboto-v19-latin-regular.ttf') format('truetype'),
          url('/vendor/roboto/roboto-v19-latin-regular.svg#Roboto') format('svg');
-  }
+}
 
 @font-face {
     font-family: 'Roboto Condensed';
@@ -22,4 +36,4 @@
          url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.woff') format('woff'),
          url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.ttf') format('truetype'),
          url('/vendor/roboto-condensed/roboto-condensed-v17-latin-regular.svg#RobotoCondensed') format('svg');
-  }
+}

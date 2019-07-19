@@ -5,14 +5,16 @@
 
     <title>{{ page.title }}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    {% if page.custom_style != "energy" %}
+        <!-- Bootstrap core CSS -->
+        <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Animate.css -->
-    <link href="{{ site.url }}/vendor/animate.css/animate.min.css" rel="stylesheet">
+        <!-- Animate.css -->
+        <link href="{{ site.url }}/vendor/animate.css/animate.min.css" rel="stylesheet">
+    {% endif %}
 
     <!-- Custom fonts for this template -->
-    {% if page.custom_style == "campaign" %}
+    {% if page.custom_style == "campaign" or page.custom_style == "energy" %}
         <link href="{{ site.url }}/css/roboto.css" rel="stylesheet">
     {% else %}
         <link href="{{ site.url }}/css/latoweb.css" rel="stylesheet">
@@ -22,6 +24,8 @@
         <link href="{{ site.url }}/css/frontpage.css" rel="stylesheet">
     {% elsif page.custom_style == "campaign" %}
         <link href="{{ site.url }}/css/campaign.css" rel="stylesheet">
+    {% elsif page.custom_style == "energy" %}
+        <link href="{{ site.url }}/css/energy.css" rel="stylesheet">
     {% else %}
         <link href="{{ site.url }}/css/default.css" rel="stylesheet">
     {% endif %}
