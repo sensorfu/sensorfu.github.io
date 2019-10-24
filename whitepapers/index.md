@@ -5,6 +5,13 @@ title: SensorFu Whitepapers
 
 # SensorFu whitepapers
 
+## Protecting water utility against nation state cyber adversary
+In this whitepaper we discuss:
+ - Why critical infrastructure must be protected from cyber threats?
+ - What is Locked Shields?
+ - How SensorFu Beacon protected water treatment plant?
+
+Download: [Protecting water utility against nation state cyber adversary](experiences-with-beacon-deployments.html)
 ## Experiences with the Beacon deployments
 
 In this whitepaper about SensorFu Beacon:
