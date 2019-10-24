@@ -9,7 +9,7 @@ In this whitepaper we discuss:
  - What is Locked Shields?
  - How SensorFu Beacon protected water treatment plant?
 
-Download: [SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf](Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf)
+Download: [Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf](Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf)
 
 <iframe
     src="/whitepapers/hubspot.html"
