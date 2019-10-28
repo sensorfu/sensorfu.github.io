@@ -75,3 +75,20 @@ $ curl -LO http://www.latofonts.com/download/Lato2OFLWeb.zip
 $ unzip Lato2OFLWeb.zip
 $ rm -rf __MACOSX Lato2OFLWeb/Lato
 ```
+
+# Font Awesome
+
+> Get vector icons and social logos on your website with Font Awesome, the web's
+> most popular icon set and toolkit. 
+
+From: https://fontawesome.com/
+
+Out customization: Remove `fontawesome/{js,less,metadata,scss,sprites,svgs}/`.
+
+```console
+$ cd vendor
+$ curl -O https://use.fontawesome.com/releases/v5.11.2/fontawesome-free-5.11.2-web.zip
+$ unzip fontawesome-free-5.11.2-web.zip
+$ mv fontawesome-free-5.11.2-web fontawesome
+$ rm -rf fontawesome/{js,less,metadata,scss,sprites,svgs}
+```
