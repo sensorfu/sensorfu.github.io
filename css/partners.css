@@ -9,6 +9,19 @@ body {
 	background-color: #001 !important;
 }
 
+.bg-earth {
+	background-image: url("/partners/earth.jpg");
+	background-color: #131525;
+	background-color: rgba(248, 247, 216, 0.7);
+
+	color: #fff;
+	text-align: center;
+	padding: 2em;
+	height: 600px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+}
 .hero {
 	min-height: 300px;
 	padding-top: 5em;
