@@ -220,8 +220,9 @@ a.btn-primary:hover {
 .anchor {padding-top: 20px;}
 
 .logos img {
-	max-width: 340px;
-	padding: 10px;
+	max-width: 270px;
+	max-height: 125px;
+	padding: 20px;
 	height: auto;
 }
 
@@ -258,7 +259,8 @@ div.aboutus blockquote {
 		font-size: 32pt;
 	}
 	.logos img {
-		max-width: 240px;
+		max-width: 170px;
+		max-height: 75px;
 		padding: 10px;
 		height: auto;
 	}
@@ -340,8 +342,8 @@ div.aboutus blockquote {
 	}
 
 	.logos img {
-		max-width: 240px;
-		padding: 0;
+		max-width: 160px;
+		padding: 5px;
 		margin: 0;
 		height: auto;
 	}
