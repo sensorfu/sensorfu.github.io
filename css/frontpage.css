@@ -184,7 +184,7 @@ a.btn-primary:hover {
 }
 
 .darker {
-	margin: 4em 0 4em 0;
+	margin: auto;
 	padding: 4em;
 	background-color: #131525;
 	color: #fff;
@@ -203,7 +203,10 @@ a.btn-primary:hover {
 	background-color: #eee;
 	color: #222;
 }
-
+.normal {
+	margin: 2em 0 2em 0;
+	padding: 4em;
+}
 
 .darker a:link,
 .darker a:visited,
