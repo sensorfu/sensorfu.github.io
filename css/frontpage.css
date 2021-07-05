@@ -240,6 +240,26 @@ a.btn-primary:hover {
 	max-width: 90%;
 }
 
+#logos {
+	padding: 30px 0;
+}
+#logos .container {
+	padding: 0;
+}
+#logos .carousel {
+	height: auto;
+	padding: 0 60px;
+}
+#logos .carousel img {
+	height: 140px;
+	object-fit: contain;
+}
+#logos .carousel-control-prev {
+	width: 60px;
+}
+#logos .carousel-control-next {
+	width: 60px;
+}
 
 .blockquote {
 	font-size: 24pt;
@@ -392,5 +412,15 @@ div.aboutus blockquote {
 
 	.blockquote {
 		font-size: 16pt;
+	}
+
+	#logos .container {
+		max-width: 100%;
+	}
+	#logos .carousel {
+		height: auto;
+	}
+	#logos .carousel img {
+		height: 100px;
 	}
 }
