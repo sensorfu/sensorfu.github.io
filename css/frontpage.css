@@ -12,6 +12,7 @@ body {
 .hero {
 	min-height: 300px;
 	padding-top: 5em;
+	padding-bottom: 2em;
 	background-color: #131525;
 	color: #fff;
 }
@@ -170,8 +171,6 @@ hr.airgapped {
 	min-height: 80px;
 }
 
-/* /examples */
-
 a.btn-primary {
 	background-color: #528093;
 	border: #528093;
@@ -182,10 +181,15 @@ a.btn-primary:hover {
 	transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 }
-
+.carousel {
+	height: 200px;
+}
+.carousel-inner {
+	height: auto;
+}
 .darker {
 	margin: auto;
-	padding: 4em;
+	padding: 2em;
 	background-color: #131525;
 	color: #fff;
 }
@@ -228,6 +232,14 @@ a.btn-primary:hover {
 	padding: 20px;
 	height: auto;
 }
+.logos {
+	min-height: 257px;
+}
+.img-fluid {
+	max-height: 140px;
+	max-width: 90%;
+}
+
 
 .blockquote {
 	font-size: 24pt;
@@ -253,6 +265,10 @@ div.aboutus blockquote {
 	font-size: 14pt;
 }
 
+/* 
+ 	* 991px * 
+ 
+*/
 @media screen and (max-width: 991px) {
 	body {
 		padding-top: 56px; /* Move content below navbar */
@@ -261,8 +277,11 @@ div.aboutus blockquote {
 	.hero h2 {
 		font-size: 32pt;
 	}
+	.carousel {
+		height: 150px;
+	}
 	.logos img {
-		max-width: 170px;
+		max-width: auto;
 		max-height: 75px;
 		padding: 10px;
 		height: auto;
@@ -306,8 +325,17 @@ div.aboutus blockquote {
 		border-top: none;
 		border-bottom: none;
 	}
+	.img-fluid {
+		max-height: 100px;
+		max-width: 90%;
+	}
+	
 }
 
+/* 
+ 	* 767px * 
+ 
+*/
 @media screen and (max-width: 767px) {
 
 	body {
@@ -343,12 +371,23 @@ div.aboutus blockquote {
 		margin-left: auto;
 		margin-right: auto;
 	}
-
+	.carousel {
+		height: 330px;
+	}
+	.carousel-inner {
+		height: auto;
+	}
 	.logos img {
-		max-width: 160px;
-		padding: 5px;
+		padding: auto;
 		margin: 0;
 		height: auto;
+	}
+	.col-12 {
+		flex: 0 0 50%;
+	}
+	.img-fluid {
+		max-height: 90%;
+		max-width: 80%;
 	}
 
 	.blockquote {
