@@ -5,7 +5,9 @@
 
     <title>{{ page.title }}</title>
 
-    {% if page.custom_style != "energy" %}
+    {% if page.custom_style == "globalot" %}
+        <link href="{{ site.url }}/vendor/splide/splide-core.min.css" rel="stylesheet">
+    {% elsif page.custom_style != "energy" %}
         <!-- Bootstrap core CSS -->
         <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,7 +19,7 @@
     {% endif %}
 
     <!-- Custom fonts for this template -->
-    {% if page.custom_style == "energy" %}
+    {% if page.custom_style == "energy" or page.custom_style == "globalot" %}
         <link href="{{ site.url }}/css/roboto.css" rel="stylesheet">
     {% else %}
         <link href="{{ site.url }}/css/latoweb.css" rel="stylesheet">
@@ -29,6 +31,8 @@
         <link href="{{ site.url }}/css/energy.css" rel="stylesheet">
     {% elsif page.custom_style == "partners" %}
         <link href="{{ site.url }}/css/partners.css" rel="stylesheet">
+    {% elsif page.custom_style == "globalot" %}
+        <link href="{{ site.url }}/css/globalot.css" rel="stylesheet">
     {% else %}
         <link href="{{ site.url }}/css/default.css" rel="stylesheet">
     {% endif %}
