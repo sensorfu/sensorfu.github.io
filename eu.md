@@ -7,7 +7,57 @@ title: Leverage from the EU for SensorFu Ltd
 ![European Regional Development Fund logo](img/eu_eakr.png){: height="150px" }
 ![Leverage from the EU logo](img/leverage_eu.png){: height="150px" }
 
-# SensorFu Oy productization and internationalization project
+
+# Ulkokalla (2021-2021)
+
+Description of the project funded by the European Regional Development Fund (ERDF)
+
+## Summary
+
+This development project pursues to grow the existing business abroad and to
+develop existing product offering to better serve customer needs. After the
+project the company is better positioned for new market potentials. With this
+project SensorFu gets opportunities to grow into new markets and is able to
+deliver current product offering to new technological platforms.
+
+## Project
+
+* Project code: [A78185](https://www.eura2014.fi/rrtiepa/projekti.php?projektikoodi=A78185&lang=en)
+* Project name: Ulkokalla
+* Policy: 8.
+* Specific objective: 12.1.
+* Planned completion time: Start 4.5.2021 and end 30.6.2022
+* Operational status: Running
+* Responsible authority: Centre for Economic Development, Transport and the Environment North Ostrobothnia
+
+## Basic applicant information
+
+* Official name of the applicant: SENSORFU OY
+* Organisation type: Micro-enterprise
+* Business ID: 2811349-6
+* Street: Teknologiantie 18 B
+* Telephone number: 0408019800
+* Postal code: 90590
+* City/town: OULU
+* Website: www.sensorfu.com
+* Project contact person's name: Kenttälä Mikko
+* Contact person's position in the organisation: CEO
+* Contact person’s email address: mikko.kenttala(at)sensorfu.com
+* Contact person's phone number: 0408019800
+* Number of applicants or subsidy transfer: Only one applicant
+
+## Public funding of the project (EUR)
+
+* EU and State funding granted: 97 740
+* Planned public funding (total): 97 740
+
+## Geographical target area
+
+* Regions: Northern Ostrobothnia
+* Subregions: Oulu
+* Municipalities: Oulu
+
+# SensorFu Oy productization and internationalization project (2018-2019)
 
 Description of the project funded by the European Regional Development Fund (ERDF).
 
@@ -54,7 +104,3 @@ channels and partnerships for the company.
 * Regions: Northern Ostrobothnia
 * Subregions: Oulu
 * Municipalities: Oulu
-* Address of the project site, if the project is carried out in one place
-* Street: Teknologiantie 18 B
-* Postal code: 90590
-* City/town: OULU
