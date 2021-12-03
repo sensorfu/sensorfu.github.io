@@ -57,6 +57,8 @@ deliver current product offering to new technological platforms.
 * Subregions: Oulu
 * Municipalities: Oulu
 
+---
+
 # SensorFu Oy productization and internationalization project (2018-2019)
 
 Description of the project funded by the European Regional Development Fund (ERDF).
