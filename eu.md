@@ -8,7 +8,7 @@ title: Leverage from the EU for SensorFu Ltd
 ![Leverage from the EU logo](img/leverage_eu.png){: height="150px" }
 
 
-# Ulkokalla (2021-2021)
+# Ulkokalla (2021-2022)
 
 Description of the project funded by the European Regional Development Fund (ERDF)
 
