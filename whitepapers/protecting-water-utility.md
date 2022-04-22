@@ -10,12 +10,3 @@ In this whitepaper we discuss:
  - How SensorFu Beacon protected water treatment plant?
 
 Download: [Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf](Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf)
-
-<iframe
-    src="/whitepapers/hubspot.html"
-    width="100%"
-    height="1000px"
-    style="border: 0;"
-    sandbox="allow-scripts allow-same-origin allow-forms"
->
-</iframe>
