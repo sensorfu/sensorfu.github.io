@@ -11,12 +11,3 @@ In this whitepaper about SensorFu Beacon:
  - What we have learned doing real world Beacon deployments?
 
 Download: [SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf](SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf)
-
-<iframe
-    src="/whitepapers/hubspot.html"
-    width="100%"
-    height="1000px"
-    style="border: 0;"
-    sandbox="allow-scripts allow-same-origin allow-forms"
->
-</iframe>
