@@ -1,2 +1,4 @@
 url: https://www.sensorfu.com
 timezone: UTC
+
+include: [".well-known"]
