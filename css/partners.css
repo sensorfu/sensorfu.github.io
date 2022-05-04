@@ -20,6 +20,10 @@ body {
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
 }
+.partner-logo {
+	max-width: 50%;
+	height: auto;
+}
 .hero {
 	min-height: 300px;
 	padding-top: 5em;
@@ -98,90 +102,6 @@ h1, h2 {
 .bloglegend {
 	border-right: 4px solid #eee;
 }
-
-/* examples */
-
-.example {
-	width: 100%;
-	border: 1px solid #aaa;
-	padding: 12px;
-	margin: 8px 4px 8px 4px;
-	text-align: center;
-	font-weight: 200;
-}
-
-.example .home {
-	background-color: #003449;
-	text-align: center;
-	padding: 20px;
-}
-
-.example .home img {
-	width: 70px;
-	height: auto;
-}
-
-.example .isolation {
-	background-color: #f1f4fa;
-	padding: 4px 8px 4px 8px;
-	text-transform: uppercase;
-	font-size: 14pt;
-	color: #c1272c;
-	text-align: center;
-	font-weight: 200;
-	min-height: 100px;
-}
-
-.example .isolation hr {
-	margin: 8px;
-	padding: 0;
-	height: 0;
-	background-color: transparent;
-	border-top: 0;
-}
-
-hr.firewalled {
-	border-bottom: 10px dotted #c1272c;
-}
-
-hr.layered {
-	border-bottom: 10px solid #c1272c;
-}
-
-hr.airgapped {
-	border-bottom: 3px solid #c1272c;
-	box-shadow: 0px 6px 0px #c1272c;
-}
-
-.example .versions {
-	background-color: #003449;
-	text-align: center;
-	padding: 10px;
-}
-
-.example .versions img {
-	width: 70px;
-	height: auto;
-	margin: 10px;
-}
-
-.example .description {
-	background-color: #003449;
-	text-align: center;
-	padding: 0px 10px 20px 10px;
-	text-transform: uppercase;
-	font-size: 22pt;
-	line-height: 1.3em;
-	color: #fff;
-	margin-bottom: 14px;
-	min-height: 155px;
-}
-
-.example .subdescription {
-	min-height: 80px;
-}
-
-/* /examples */
 
 a.btn-primary {
 	background-color: #528093;
@@ -359,5 +279,9 @@ div.aboutus blockquote {
 
 	.blockquote {
 		font-size: 16pt;
+	}
+	.partner-logo {
+		max-width: 80%;
+		height: auto;
 	}
 }
