@@ -24,6 +24,10 @@ body {
 	max-width: 50%;
 	height: auto;
 }
+.faces {
+	max-width: 90%;
+	height: auto;
+}
 .hero {
 	min-height: 300px;
 	padding-top: 5em;
@@ -282,6 +286,10 @@ div.aboutus blockquote {
 	}
 	.partner-logo {
 		max-width: 80%;
+		height: auto;
+	}
+	.faces {
+		max-width: 60%;
 		height: auto;
 	}
 }
