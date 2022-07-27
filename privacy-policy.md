@@ -20,7 +20,7 @@ your personal data.
 
 ```
 SensorFu Oy
-Teknologiantie 18 B
+Teknologiantie 11
 90590 Oulu
 Finland
 Email: contact@sensorfu.com
