@@ -236,7 +236,7 @@ a.btn-primary:hover {
 	min-height: 257px;
 }
 .img-fluid {
-	max-height: 140px;
+	max-height: 100px;
 	max-width: 90%;
 }
 
