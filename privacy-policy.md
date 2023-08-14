@@ -30,7 +30,7 @@ Business ID: 2811349-6
 ## Purpose and legal basis for processing
 
 For users who access this website, the legal basis for processing personal data
-is our interest to understand website traffic and webpage usage. We use Google
+is our interest to understand website traffic and webpage usage. We use Plausible.io and Google
 Analytics platform using [IP
 masking](https://developers.google.com/analytics/devguides/collection/gtagjs/ip-anonymization)
 to collect website access statistics.
