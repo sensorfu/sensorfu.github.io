@@ -13,7 +13,7 @@ body {
 	min-height: 300px;
 	padding-top: 5em;
 	padding-bottom: 2em;
-	background-color: #131525;
+	background-color: #12283a;
 	color: #fff;
 }
 
@@ -190,14 +190,14 @@ a.btn-primary:hover {
 .darker {
 	margin: auto;
 	padding: 2em;
-	background-color: #131525;
+	background-color: #12283a;
 	color: #fff;
 }
 
 .darker2 {
 	margin: 4em 0 4em 0;
 	padding: 2em;
-	background-color: #528093;
+	background-color: #12283a;
 	color: #fff;
 }
 
