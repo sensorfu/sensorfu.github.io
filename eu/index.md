@@ -4,8 +4,61 @@ permalink: eu.html
 title: Leverage from the EU for SensorFu Ltd
 ---
 
-![European Regional Development Fund logo](img/eu_eakr.png){: height="150px" }
-![Leverage from the EU logo](img/leverage_eu.png){: height="150px" }
+![Co-funded by the European Union logo](eu/EN_Co-fundedbytheEU_RGB_POS.png){: height="150px" }
+
+# Tärppä (2025)
+
+Description of the project funded by the European Regional and Structural Policy
+Funds.
+
+## Summary
+
+This development project pursues to develop existing product offering to better
+serve customer needs and to develop one new product. After the project the
+company is better positioned for new market potentials. With this project
+SensorFu gets opportunities to grow into new markets and can offer current and
+new product to existing and new customers.
+
+## Project details
+
+ * Fund: European Regional Development Fund (ERDF)
+ * Subtype: Business development assistance (YRTU)
+ * Project code: [A91891](https://eura2021.fi/hanketietopalvelu?koodi=A91891)
+ * Project name: Tærppæ
+ * Priority axis: 1 Innovative Finland
+ * Specific objective: 1.2 Reaping the benefits of digitalisation for citizens, companies and public governance
+ * Planned completion time: From 1.1.2025 to 31.12.2025
+ * Funding agency: ELY Centre for North Ostrobothnia
+
+
+## Details of the party implementing the project
+
+ * Name of the party implementing the project: SensorFu Oy
+ * Business ID: 2811349-6
+ * Organisation type: Micro-enterprise
+ * Postal address: Teknologiantie 11
+ * Postal code: 90590
+ * City/town: Oulu
+ * Telephone number: +358 40 8019800
+ * Website: [https://sensorfu.com/](https://sensorfu.com/)
+ * Project contact person's name: Mikko Kenttälä
+
+## Project funding
+
+ * EU and State funding: 125 787 €
+ * Total funding of the project in total: 251 575 €
+
+## Geographical area of operation
+
+ * Country: Finland
+ * Location: FI1D9 Northern Ostrobothnia
+ * Regions: North Ostrobothnia
+ * Municipalities: Oulu
+
+---
+
+![European Regional Development Fund logo](eu/eu_eakr.png){: height="150px" }
+![Leverage from the EU logo](eu/leverage_eu.png){: height="150px" }
 
 
 # Ulkokalla (2021-2022)
