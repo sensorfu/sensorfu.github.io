@@ -1,0 +1,210 @@
+---
+---
+
+@import "variables";
+@import "utils";
+
+:root {
+  --primary-color: #{$primary-color};
+  --accent-color: #{$accent-color};
+  --accent-hover-color: #{$accent-hover-color};
+
+  --bs-primary: var(--accent-color);
+  --bs-primary-bg-subtle: var(--primary-color);
+  --bs-border-radius: 0;
+  --bs-heading-color: var(--accent-color);
+
+  --carousel-image-height: 30px;
+
+  @include media(sm) {
+    --carousel-image-height: 40px;
+  }
+}
+
+html {
+  background-color: $primary-color;
+}
+
+a.link,
+a.visited {
+  color: $primary-color !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+  color: white;
+}
+
+.bg-dark {
+  background-color: $bg-dark !important;
+}
+
+.bg-light {
+  background-color: $bg-light !important;
+}
+
+.navbar {
+  --bs-primary-bg-subtle: var(--primary-color);
+  --bs-navbar-color: white !important;
+  --bs-navbar-brand-font-size: 2.2rem;
+  --bs-nav-link-padding-x: 1rem;
+}
+
+.btn {
+  --bs-btn-padding-x: 2.5rem;
+  --bs-btn-padding-y: 0.75rem;
+  --bs-btn-bg: var(--accent-color);
+  --bs-btn-color: white;
+  --bs-btn-hover-bg: var(--accent-hover-color);
+  --bs-btn-hover-color: white;
+
+  white-space: nowrap;
+}
+
+.btn-gradient {
+  background-image: linear-gradient(to right, $primary-color, $accent-color);
+  background-size: 100%;
+  border: none;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn-gradient:hover {
+  background-size: 140%;
+}
+
+.hero {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  h1 {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 700;
+
+    @include media(sm) {
+      font-size: 2.2rem;
+    }
+  }
+
+  h2 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    @include media(sm) {
+      font-size: 1.5rem;
+    }
+  }
+
+  & > * {
+    height: 100%;
+  }
+
+  height: 500px;
+
+  @include media(sm) {
+    height: 450px;
+  }
+}
+
+.hero-content {
+  height: 100%;
+  max-width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: stretch;
+  padding: 1rem;
+  gap: 1rem;
+
+  @include media(sm) {
+    padding: 2rem;
+  }
+
+  @include media(md) {
+    padding: 3rem;
+  }
+}
+
+.hero-content .lead {
+  font-size: 1.05rem;
+}
+
+.carousel-outer {
+  background: black;
+}
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: calc(var(--carousel-image-height) * 3);
+    height: 100%;
+    z-index: 1;
+  }
+
+  &::before {
+    left: 0;
+    background: linear-gradient(to right, black 0%, transparent 100%);
+  }
+
+  &::after {
+    right: 0;
+    background: linear-gradient(to left, black 0%, transparent 100%);
+  }
+}
+
+@keyframes spin-carousel {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-track {
+  animation: spin-carousel 90s linear infinite;
+  display: flex;
+  gap: calc(var(--carousel-image-height) * 1.5);
+  padding: calc(var(--carousel-image-height) * 0.75) 0;
+  width: fit-content;
+
+  img {
+    height: var(--carousel-image-height);
+    width: auto;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+
+  @include media(md) {
+    justify-content: end;
+  }
+
+  img {
+    height: 24px;
+  }
+}
+
+.partner .row .logo {
+  min-height: 180px;
+}
+
+.partner img {
+  max-width: 240px;
+  margin: 2rem;
+}

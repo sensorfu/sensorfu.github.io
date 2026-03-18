@@ -1,0 +1,12 @@
+$primary-color: #222851;
+$accent-color: #42a2ce;
+$bg-light: #f2f2f2;
+$bg-dark: #222222;
+$accent-hover-color: darken($accent-color, 10%);
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+);

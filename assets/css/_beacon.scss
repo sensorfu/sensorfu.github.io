@@ -1,0 +1,81 @@
+---
+---
+
+@import "variables";
+@import "utils";
+
+.beacon-hero {
+  background-image: url(../img/beacon_banner.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+
+  height: 400px;
+
+  @include media(md) {
+    height: 500px;
+  }
+
+  .hero-content {
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.beacon-card {
+  display: flex;
+  background: #eeeeee;
+
+  flex-direction: column;
+  margin: 2rem;
+
+  .text-container {
+    order: 1;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .text-container {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+
+  .icon-container {
+    width: 100%;
+    height: 150px;
+    padding: 2rem;
+
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: $primary-color;
+
+    img {
+      height: 75%;
+      width: auto;
+    }
+  }
+
+  @include media(md) {
+    flex-direction: row;
+    margin-bottom: 1rem;
+
+    .text-container {
+      order: 0;
+    }
+
+    .icon-container {
+      width: 300px;
+      height: initial;
+
+      img {
+        width: 50%;
+        height: auto;
+      }
+    }
+  }
+}

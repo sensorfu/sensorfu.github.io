@@ -1,66 +1,38 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="SensorFu Ltd">
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="author" content="SensorFu Ltd" />
 
-    <title>{{ page.title }}</title>
+  <title>{{ page.title }}</title>
 
-    {% if page.custom_style == "globalot" %}
-        <link href="{{ site.url }}/vendor/splide/splide-core.min.css" rel="stylesheet">
-    {% elsif page.custom_style != "energy" %}
-        <!-- Bootstrap core CSS -->
-        <link href="{{ site.url }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/img/favicon.png" rel="icon" type="image/png" />
+  <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
 
-        <!-- Animate.css -->
-        <link href="{{ site.url }}/vendor/animate.css/animate.min.css" rel="stylesheet">
+  {% if page.layout == "frontpage" %}
+  <link rel="stylesheet" href="/assets/css/frontpage.css" />
+  {% endif %} {% if page.url == "/beacon.html" %}
+  <!-- <link rel="stylesheet" href="/assets/css/beacon.css"> -->
+  {% endif %} {% if page.preload_image %}
+  <link
+    rel="preload"
+    href="{{ page.preload_image | absolute_url }}"
+    as="image"
+  />
+  {% endif %}
 
-        <!-- Font Awesome -->
-        <link href="{{ site.url }}/vendor/fontawesome/css/all.min.css" rel="stylesheet">
-    {% endif %}
+  <!-- Open Graph Tags-->
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
 
-    <!-- Custom fonts for this template -->
-    {% if page.custom_style == "energy" or page.custom_style == "globalot" %}
-        <link href="{{ site.url }}/css/roboto.css" rel="stylesheet">
-    {% else %}
-        <link href="{{ site.url }}/css/latoweb.css" rel="stylesheet">
-    {% endif %}
-
-    {% if page.custom_style == "frontpage" %}
-        <link href="{{ site.url }}/css/frontpage.css" rel="stylesheet">
-    {% elsif page.custom_style == "energy" %}
-        <link href="{{ site.url }}/css/energy.css" rel="stylesheet">
-    {% elsif page.custom_style == "partners" %}
-        <link href="{{ site.url }}/css/partners.css" rel="stylesheet">
-    {% elsif page.custom_style == "globalot" %}
-        <link href="{{ site.url }}/css/globalot.css" rel="stylesheet">
-    {% else %}
-        <link href="{{ site.url }}/css/default.css" rel="stylesheet">
-    {% endif %}
-
-    <!-- Favicon -->
-    <link href="{{ site.url }}/favicon.png" rel="icon" type="image/png">
-
-    <!-- Open Graph Tags-->
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-
-    {% if page.ogimage %}
-        <meta property="og:image" content="{{ page.ogimage | absolute_url }}">
-    {%endif %}
-
-    {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        <meta property="og:description" content="{{ page.description }}">
-    {% endif %}
-
-    <!-- Twitter meta tags -->
-    <meta name="twitter:creator" content="@sensorfu">
-
-    <!-- Plausible.io -->
-    <script defer data-domain="sensorfu.com" src="https://plausible.io/js/script.outbound-links.file-downloads.js"></script>
-
-    {% if page.redirect %}
-    <meta http-equiv="Refresh" content="{{page.redirect.delay}}; url={{page.redirect.url}}" />
-    {% endif %}
+  {% if page.ogimage %}
+  <meta property="og:image" content="{{ page.ogimage | absolute_url }}" />
+  {%endif %} {% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  <meta property="og:description" content="{{ page.description }}" />
+  {% endif %}
 </head>

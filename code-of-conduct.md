@@ -21,7 +21,7 @@ obligations and local regulations.
 
 Safety, security and privacy of our customers, society, people, our employees
 and our partners are the highest priorities for us. We follow laws, regulations
-and good corporate governance practices.  We respect human rights, labour
+and good corporate governance practices. We respect human rights, labour
 rights, consider the environment and have anti-corruption measures. Our Code of
 Conduct has short policy statements on Environmental Protection, Health and
 Safety, Child and Forced Labour, Anti-Bribery, Anti-Discrimation, Taxes,

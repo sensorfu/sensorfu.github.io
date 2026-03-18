@@ -1,4 +1,14 @@
-url: https://www.sensorfu.com
+title: SensorFu
+url: https://new.sensorfu.com
 timezone: UTC
 
+repository: sensorfu/newweb
 include: [".well-known"]
+
+# Build settings
+# Disable github pages default theme
+theme: null
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap

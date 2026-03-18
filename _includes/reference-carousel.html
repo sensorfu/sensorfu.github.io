@@ -1,0 +1,15 @@
+
+<div id="references" class="carousel-outer">
+    <div class="carousel-container container-xl">
+        <div class="carousel-track reference-track">
+            {% assign references = site.static_files | where_exp: "file", "file.path contains 'img/references/'" %}
+            {% for reference in references %}
+            <img src="{{ reference.path }}">
+            {% endfor %}
+            <!-- Add images second time for smooth looping -->
+            {% for reference in references %}
+            <img src="{{ reference.path }}">
+            {% endfor %}
+        </div>
+    </div>
+</div>
