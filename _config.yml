@@ -1,8 +1,7 @@
 title: SensorFu
-url: https://new.sensorfu.com
+url: https://sensorfu.com
 timezone: UTC
 
-repository: sensorfu/newweb
 include: [".well-known"]
 
 # Build settings
