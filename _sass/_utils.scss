@@ -1,0 +1,11 @@
+@import "variables";
+
+@mixin media($breakpoint) {
+  @for $i from 1 through length($breakpoints) {
+    @if nth(nth($breakpoints, $i), 1) == $breakpoint {
+      @media (min-width: #{nth(nth($breakpoints, $i), 2)}) {
+        @content;
+      }
+    }
+  }
+}

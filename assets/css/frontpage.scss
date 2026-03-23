@@ -1,0 +1,338 @@
+---
+---
+
+@import "variables";
+@import "utils";
+
+.front-hero {
+  background-image:
+    linear-gradient(
+      104.31deg,
+      rgba(0, 0, 0, 0.76) 39%,
+      rgba(230, 50, 53, 0.81) 90%
+    ),
+    url(../img/frontpage_banner.jpg);
+
+  background-blend-mode: overlay, screen, overlay;
+}
+
+.front-hero2 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/earth-banner4.jpg);
+  background-position: top right;
+
+  @include media(sm) {
+    background-image:
+      url(../img/earth-banner4.jpg),
+      //fallback while loading
+      linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+    background-position: top right;
+  }
+
+  .hero-content {
+    max-width: 700px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.front-beacon-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/beacon_banner_mobile.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+  background-position: top left;
+
+  @include media(sm) {
+    background-image: url(../img/beacon_banner.jpg);
+    background-position: top right;
+  }
+
+  .hero-content {
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.beacon-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/beacon_banner_mobile.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+  background-size: cover;
+  background-position: top left;
+
+  @include media(sm) {
+    background-image:
+      url(../img/beacon_banner.jpg),
+      //fallback while loading
+      linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+    background-size: cover;
+    background-position: top right;
+  }
+
+  .hero-content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.about-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/sfu-team.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+  background-size: cover;
+  background-position: center;
+
+  @include media(sm) {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+      url(../img/sfu-team.jpg);
+  }
+
+  .hero-content {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.partners-hero {
+  background-image:
+    url(../img/earth.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+  background-size: cover;
+  background-position: top center;
+
+  .hero-content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.resources-hero {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/resources-banner.jpg),
+    //fallback while loading
+    linear-gradient(135deg, $primary-color 60%, $accent-color 90%);
+  background-size: cover;
+  background-position: center;
+
+  @include media(sm) {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url(../img/resources-banner.jpg);
+    background-position: top right;
+  }
+
+  .hero-content {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.reference-track img {
+  height: var(--carousel-image-height);
+}
+
+.industry-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  .industry-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    flex-basis: 35%;
+
+    @include media(lg) {
+      flex-basis: initial;
+    }
+
+    .img-container {
+      flex-grow: 1;
+
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+
+      img {
+        height: 100px;
+        width: 150px;
+      }
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.bg-gray {
+  background-color: #eee;
+}
+
+.posts-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: stretch;
+
+  .post-card {
+    height: 400px;
+    flex: 1 1 300px;
+    background-color: white;
+
+    @include media(sm) {
+      flex: 1 1 50%;
+      min-width: 300px;
+    }
+
+    @include media(md) {
+      flex: 1 1 30%;
+      max-width: 30%;
+    }
+
+    > * {
+      padding: 1rem 2rem;
+    }
+
+    .post-header {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      gap: 1rem;
+      height: 170px;
+      background-image: linear-gradient(
+        135deg,
+        $primary-color 60%,
+        $accent-color 90%
+      );
+    }
+
+    .post-tag {
+      display: inline-block;
+      background-color: $accent-color;
+      color: white;
+      padding: 0 15px;
+      border-radius: 1rem;
+      min-width: 80px;
+      text-align: center;
+    }
+
+    .post-title {
+      color: white;
+    }
+
+    .post-date {
+      float: left;
+      font-weight: bold;
+      margin-right: 0.2em;
+    }
+
+    .post-excerpt {
+      display: -webkit-box;
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .post-link {
+      color: $accent-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.post-categories {
+  text-align: end;
+
+  .category {
+    &:not(:last-of-type)::after {
+      content: " | ";
+    }
+  }
+
+  a {
+    color: black;
+    margin: 0 3px;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+}
+
+.video-section {
+  display: flex;
+  min-height: 350px;
+
+  .text-container {
+    background-color: $primary-color;
+    flex: 0 0 auto;
+    padding: 2rem;
+
+    color: white;
+
+    h2 {
+      color: white;
+      font-weight: 700;
+    }
+
+    a {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+      line-height: 1.2em;
+    }
+
+    a:hover {
+      opacity: 0.8;
+    }
+
+    @include media(md) {
+      padding: 4rem;
+      a {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .bg-container {
+    position: relative;
+    flex: 1 1 auto;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 10%;
+      filter: brightness(60%);
+    }
+
+    .gradient-overlay {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      mix-blend-mode: overlay;
+      background-image: linear-gradient(
+        102deg,
+        rgba(66, 162, 206, 0.45) 34%,
+        rgba(127, 92, 163, 0.45) 77%
+      );
+    }
+  }
+}

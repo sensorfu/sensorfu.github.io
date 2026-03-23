@@ -1,0 +1,164 @@
+---
+layout: frontpage
+title: Resources
+description: SensorFu brings proactive confidence to mission-critical OT systems across all industries.
+preload_image: /assets/img/resources-banner.jpg
+redirect_from:
+  - /whitepapers
+---
+
+<div class="hero resources-hero">
+  <div class="container-xl">
+    <div class="hero-content">
+      <h1>Resources</h1>
+      <p class="lead">
+        Our Resources hub offers direct access to insights, technical info and documentation.
+      </p>
+      <p>
+        <a href="#blogs" class="btn btn-gradient mx-1 my-2">Blogs &rarr;</a>
+        <a href="#whitepapers" class="btn btn-gradient mx-2 my-2"
+          >Whitepapers &rarr;</a
+        >
+        <a href="#casestudies" class="btn btn-gradient mx-1 my-2"
+          >Case studies &rarr;</a
+        >
+        <a href="#documentation" class="btn btn-gradient mx-2 my-2"
+          >Documentation &rarr;</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+
+<section id="blogs">
+  <div class="py-5 px-2 px-md-4">
+    <div class="container-xl py-4">
+      <h1>Blogs</h1>
+
+      <div class="posts-container pt-4">
+        {% for post in site.categories.blog limit:3 %}
+        <div class="post-card bg-light">
+          <div class="post-header">
+            <div class="post-tag">{{ post.categories | first }}</div>
+            <h4 class="post-title">{{ post.title }}</h4>
+          </div>
+          <div class="card-body py-4">
+            <div class="post-excerpt">
+              <span class="post-date"
+                >{{ post.date | date: "%B %-d, %Y" }} -
+              </span>
+              {{ post.excerpt }}
+            </div>
+            <a href="{{ post.url }}">Read more &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="post-list-minimal mt-5 px-4">
+        {% for post in site.categories.blog offset:3 %}
+        <p class="mb-3">
+          <span class="me-2" aria-hidden="true">&raquo;</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="text-muted small">
+            — {{ post.date | date: "%B %-d, %Y" }}
+          </span>
+        </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="whitepapers">
+  <div class="py-5 px-2 px-md-4">
+    <div class="container-xl py-4">
+      <h1>Whitepapers</h1>
+
+      <div class="posts-container pt-4">
+        {% for post in site.categories.whitepaper limit:3 %}
+        <div class="post-card bg-light">
+          <div class="post-header">
+            <div class="post-tag">{{ post.categories | first }}</div>
+            <h4 class="post-title">{{ post.title }}</h4>
+          </div>
+          <div class="card-body py-4">
+            <div class="post-excerpt">
+              <span class="post-date"
+                >{{ post.date | date: "%B %-d, %Y" }} -
+              </span>
+              {{ post.excerpt }}
+            </div>
+            <a href="{{ post.url }}">Read more &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="post-list-minimal mt-5 px-4">
+        {% for post in site.categories.whitepaper offset:3 %}
+        <p class="mb-3">
+          <span class="me-2" aria-hidden="true">&raquo;</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="text-muted small">
+            — {{ post.date | date: "%B %-d, %Y" }}
+          </span>
+        </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="casestudies">
+  <div class="py-5 px-2 px-md-4">
+    <div class="container-xl py-4">
+      <h1>Case studies</h1>
+
+      <div class="posts-container pt-4">
+        {% for post in site.categories.case study limit:3 %}
+        <div class="post-card bg-light">
+          <div class="post-header">
+            <div class="post-tag">case study</div>
+            <h4 class="post-title">{{ post.title }}</h4>
+          </div>
+          <div class="card-body py-4">
+            <div class="post-excerpt">
+              <span class="post-date"
+                >{{ post.date | date: "%B %-d, %Y" }} -
+              </span>
+              {{ post.excerpt }}
+            </div>
+            <a href="{{ post.url }}">Read more &rarr;</a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="post-list-minimal mt-5 px-4">
+        {% for post in site.categories.case study offset:3 %}
+        <p class="mb-3">
+          <span class="me-2" aria-hidden="true">&raquo;</span>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="text-muted small">
+            — {{ post.date | date: "%B %-d, %Y" }}
+          </span>
+        </p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="documentation">
+  <div class="py-5 px-2 px-md-4">
+    <div class="container-xl py-4">
+      <h1>Documentation</h1>
+      <p class="my-4">
+        <a href="https://portal.sensorfu.com/manual/" class="btn btn-gradient target="_blank"
+          >Beacon User Manual &rarr;</a
+        >
+      </p>
+    </div>
+  </div>
+</section>
