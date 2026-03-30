@@ -115,7 +115,7 @@ redirect_from:
       <h1>Case studies</h1>
 
       <div class="posts-container pt-4">
-        {% for post in site.categories.case study limit:3 %}
+        {% for post in site.categories["case study"] limit:3 %}
         <div class="post-card bg-light">
           <div class="post-header">
             <div class="post-tag">case study</div>
@@ -135,7 +135,7 @@ redirect_from:
       </div>
 
       <div class="post-list-minimal mt-5 px-4">
-        {% for post in site.categories.case study offset:3 %}
+        {% for post in site.categories["case study"] offset:3 %}
         <p class="mb-3">
           <span class="me-2" aria-hidden="true">&raquo;</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
