@@ -1,7 +1,43 @@
 ---
 layout: default
 ---
+
+<article class="post">
+
+<p>
+  <a href="/resources/" class="mb-4">&larr; Resources</a>
+</p>
+
+<div class="mt-4 mb-2">
+{% if page.tags and page.tags != empty %}
+  <div class="post-tags">
+    {% for tag in page.tags %}
+      <span class="post-tag">{{ tag }}</span>
+    {% endfor %}
+  </div>
+{% elsif page.categories and page.categories != empty %}
+  <div class="post-tags">
+    <span class="post-tag">{{ page.categories | first }}</span>
+  </div>
+{% endif %}
+</div>
+
 <h1>{{ page.title }}</h1>
-<p><strong>{{ page.date | date: "%B %-d, %Y" }} - {{ page.author }}</strong></p>
+
+<p class="post-meta"><strong>{{ page.date | date: "%B %-d, %Y" }} 
+{% if page.author %}    
+    - {{ page.author }}
+{% endif %}
+</strong></p>
+
+{% if page.image %}
+  {% assign image_prefix = page.image | slice: 0, 2 %}
+  {% if page.image contains '://' or image_prefix == '//' %}
+    <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title }}" />
+  {% else %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}" />
+  {% endif %}
+{% endif %}
 
 {{ content }}
+</article>

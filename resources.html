@@ -15,12 +15,10 @@ redirect_from:
         Our Resources hub offers direct access to insights, technical info and documentation.
       </p>
       <p>
-        <a href="#blogs" class="btn btn-gradient mx-1 my-2">Blogs &rarr;</a>
+        <a href="#articles" class="btn btn-gradient mx-1 my-2">Articles &rarr;</a>
         <a href="#whitepapers" class="btn btn-gradient mx-2 my-2"
           >Whitepapers &rarr;</a
         >
- <!--       <a href="#casestudies" class="btn btn-gradient mx-1 my-2"
-          >Case studies &rarr;</a> -->
         <a href="#documentation" class="btn btn-gradient mx-2 my-2"
           >Documentation &rarr;</a
         >
@@ -29,16 +27,23 @@ redirect_from:
   </div>
 </div>
 
-<section id="blogs">
+<section id="articles">
   <div class="py-5 px-2 px-md-4">
     <div class="container-xl py-4">
-      <h1>Blogs</h1>
+      <h1>Articles</h1>
 
       <div class="posts-container pt-4">
-        {% for post in site.categories.blog limit:3 %}
+        {% for post in site.categories.article limit:3 %}
         <div class="post-card bg-light">
-          <div class="post-header">
-            <div class="post-tag">{{ post.categories | first }}</div>
+            <div class="post-header">
+            {% if post.tags and post.tags != empty %}
+            <div class="post-tags">
+              {% for tag in post.tags %}
+              <span class="post-tag">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            {% endif %}
+
             <h4 class="post-title">{{ post.title }}</h4>
           </div>
           <div class="card-body py-4">
@@ -55,7 +60,7 @@ redirect_from:
       </div>
 
       <div class="post-list-minimal mt-5 px-4">
-        {% for post in site.categories.blog offset:3 %}
+        {% for post in site.categories.article offset:3 %}
         <p class="mb-3">
           <span class="me-2" aria-hidden="true">&raquo;</span>
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -108,47 +113,7 @@ redirect_from:
     </div>
   </div>
 </section>
-<!--
-<section id="casestudies">
-  <div class="py-5 px-2 px-md-4">
-    <div class="container-xl py-4">
-      <h1>Case studies</h1>
 
-      <div class="posts-container pt-4">
-        {% for post in site.categories["case study"] limit:3 %}
-        <div class="post-card bg-light">
-          <div class="post-header">
-            <div class="post-tag">case study</div>
-            <h4 class="post-title">{{ post.title }}</h4>
-          </div>
-          <div class="card-body py-4">
-            <div class="post-excerpt">
-              <span class="post-date"
-                >{{ post.date | date: "%B %-d, %Y" }} -
-              </span>
-              {{ post.excerpt }}
-            </div>
-            <a href="{{ post.url }}">Read more &rarr;</a>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-
-      <div class="post-list-minimal mt-5 px-4">
-        {% for post in site.categories["case study"] offset:3 %}
-        <p class="mb-3">
-          <span class="me-2" aria-hidden="true">&raquo;</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="text-muted small">
-            — {{ post.date | date: "%B %-d, %Y" }}
-          </span>
-        </p>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-</section>
--->
 <section id="documentation">
   <div class="py-5 px-2 px-md-4">
     <div class="container-xl py-4">

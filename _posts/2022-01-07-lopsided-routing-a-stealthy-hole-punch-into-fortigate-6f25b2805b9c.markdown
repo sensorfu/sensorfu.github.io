@@ -2,7 +2,9 @@
 layout: post
 title:  "Lopsided routing, a stealthy hole punch into FortiGate"
 date:   2022-01-07 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 Explores how asymmetric routing and mis-applied firewall policies in FortiGate appliances can open unexpected network paths.
 
