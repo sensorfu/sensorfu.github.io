@@ -2,7 +2,9 @@
 layout: post
 title:  "Escaping from a truly air gapped network via Apple AWDL"
 date:   2021-08-03 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 Outlines an AWDL-based technique that leaks data from an air-gapped host to an iPhone in proximity using IPv6 queries and “bouncing.”
 

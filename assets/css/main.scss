@@ -208,3 +208,45 @@ a.visited {
   max-width: 240px;
   margin: 2rem;
 }
+
+.post {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  line-height: 1.6rem;
+}
+
+.post img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin: 2rem 0;
+  border-radius: 12px;
+}
+
+.post-meta {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.post blockquote {
+  border-left: 4px solid var(--accent-color);
+  font-size: 1.4rem;
+  padding-left: 1rem;
+  margin: 1.6rem;
+  line-height: 2.2rem;
+  margin-left: 0;
+  color: #555;
+  font-style: italic;
+}
+
+.post-tag {
+  display: inline-block;
+  background-color: #42a2ce;
+  color: white;
+  padding: 0 15px;
+  border-radius: 1rem;
+  min-width: 80px;
+  text-align: center;
+}

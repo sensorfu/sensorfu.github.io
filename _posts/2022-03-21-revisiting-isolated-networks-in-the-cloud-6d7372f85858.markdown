@@ -2,7 +2,9 @@
 layout: post
 title:  "Revisiting Isolated Networks in the Cloud"
 date:   2022-03-21 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 A follow-up that re-tests AWS, GCP, and Azure isolated networks to confirm if past isolation issues have been addressed.
 

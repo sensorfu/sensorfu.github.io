@@ -2,7 +2,9 @@
 layout: post
 title:  "Bidirectional escape testing"
 date:   2023-10-12 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 Shows how to verify two-way network leaks—sending and receiving—using a triple-ping UDP technique to confirm true bidirectional communication.
 

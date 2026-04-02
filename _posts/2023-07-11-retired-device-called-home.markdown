@@ -2,7 +2,9 @@
 layout: post
 title:  "Retired Device called Home"
 date:   2023-07-11 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 A customer story where a decommissioned Beacon device unexpectedly triggered a flood of alerts, revealing hidden network paths and misconfigurations.
 

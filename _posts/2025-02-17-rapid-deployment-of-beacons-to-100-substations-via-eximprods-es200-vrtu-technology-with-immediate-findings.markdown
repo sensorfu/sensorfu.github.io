@@ -2,7 +2,9 @@
 layout: post
 title: "Rapid deployment of Beacons to 100 substations"
 date: 2025-02-17 00:00:00 +0000
-categories: blog
+category: article
+tags: 
+- blog
 ---
 
 A case study detailing how Eximprod’s ES200 vRTU tech enabled the rapid rollout of 100 SensorFu Beacons across geographically dispersed substations and the key insights gained.
