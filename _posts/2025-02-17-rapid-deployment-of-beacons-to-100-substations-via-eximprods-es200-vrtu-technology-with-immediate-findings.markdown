@@ -5,10 +5,8 @@ date: 2025-09-17 00:00:00 +0000
 category: article
 tags: 
 - case study 
-image 1: /assets/img/articles/SensorFu_rasberry_Pi_web.png
+image: /assets/img/articles/SensorFu_rasberry_Pi_web.png
 image_alt: SensorFu Beacon Device, Raspberry Pi
-image 2: /assets/img/articles/Es200_and_Beacon_web.png
-image_alt: ES200 and Beacon Integration
 ---
 
 At SensorFu, we are committed to serving our customers with seamless deployment solutions and are always eager to collaborate with companies that share our vision. That’s why we’ve teamed up with Eximprod, a Romanian company offering a comprehensive range of equipment, solutions, and services tailored to the energy sector. Through this partnership, Eximprod can offer SensorFu Beacon to their clients.
@@ -19,8 +17,6 @@ Eximprod, who specializes in smart grid edge computing solutions, was tasked to 
 ## What is SensorFu Beacon and how does it work.
 
 SensorFu Beacon was designed to continuously try to find new network leak paths from isolated networks or network segments using two components: Beacon (sensor) and Beacon Home (home server). It is an easy-to-install solution that does not need a cybersecurity specialist to do. It can be used as an application, a virtual machine, or with a device.
-
-![SensorFu Beacon Device, Raspberry Pi](SensorFu_rasberry_Pi_web.png)
 
 Beacons are placed in isolated data networks, from which the beacons try to connect to Beacon Home, using various methods. Beacon Home can be run on the public internet, hosted by us or on-prem, hosted by the customer.
 
@@ -46,7 +42,7 @@ The deployment was supported with:
 - WWAN backup
 - Firewall (ACL)
 
-![ES200 and Beacon Integration](Es200_and_Beacon_web.png)
+![ES200 and Beacon Integration](/assets/img/articles/Es200_and_Beacon_web.png) 
 
 The Beacon Home was installed on-premise in the client’s data center (Debian 12 on a dedicated server) by Eximprod specialists, within the DMZ. Within the first few minutes of active deployment, Beacons managed to escape the network isolation and call Home.
 
