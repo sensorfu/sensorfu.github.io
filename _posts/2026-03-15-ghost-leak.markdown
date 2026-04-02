@@ -4,7 +4,7 @@ title: "Ghost Leak: Beacon is already dead, but keeps calling back to Home"
 date: 2026-03-15 09:30:00 +0200
 category: article
 tags:
-- blog
+- article
 image: /assets/img/articles/ghost-beacon.jpg
 image_alt: Ghost leak illustration
 ---
