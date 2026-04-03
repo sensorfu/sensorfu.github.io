@@ -5,7 +5,7 @@ date: 2026-01-12 09:30:00 +0200
 category: article
 tags:
 - case study
-image: /assets/img/articles/ssab.jpg
+image: /assets/img/articles/ssab-web.png
 image_alt: SSAB 
 ---
 
