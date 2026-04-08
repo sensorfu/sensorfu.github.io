@@ -4,11 +4,53 @@
         <div class="carousel-track reference-track">
             {% assign references = site.static_files | where_exp: "file", "file.path contains 'img/references/'" %}
             {% for reference in references %}
-            <img src="{{ reference.path }}">
+            {% assign filename = reference.path | split: "/" | last %}
+            {% assign base_name = filename
+              | remove: ".png"
+              | remove: ".jpg"
+              | remove: ".jpeg"
+              | remove: ".webp"
+              | remove: ".svg"
+              | replace: "-", " "
+              | replace: "_", " " %}
+            {% assign words = base_name | split: " " %}
+            {% assign alt_text = "" %}
+            {% for word in words %}
+            {% if word != "" %}
+            {% assign capitalized_word = word | downcase | capitalize %}
+            {% if alt_text == "" %}
+            {% assign alt_text = capitalized_word %}
+            {% else %}
+            {% assign alt_text = alt_text | append: " " | append: capitalized_word %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            <img src="{{ reference.path }}" alt="{{ alt_text }}">
             {% endfor %}
             <!-- Add images second time for smooth looping -->
             {% for reference in references %}
-            <img src="{{ reference.path }}">
+            {% assign filename = reference.path | split: "/" | last %}
+            {% assign base_name = filename
+              | remove: ".png"
+              | remove: ".jpg"
+              | remove: ".jpeg"
+              | remove: ".webp"
+              | remove: ".svg"
+              | replace: "-", " "
+              | replace: "_", " " %}
+            {% assign words = base_name | split: " " %}
+            {% assign alt_text = "" %}
+            {% for word in words %}
+            {% if word != "" %}
+            {% assign capitalized_word = word | downcase | capitalize %}
+            {% if alt_text == "" %}
+            {% assign alt_text = capitalized_word %}
+            {% else %}
+            {% assign alt_text = alt_text | append: " " | append: capitalized_word %}
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+            <img src="{{ reference.path }}" alt="{{ alt_text }}">
             {% endfor %}
         </div>
     </div>
