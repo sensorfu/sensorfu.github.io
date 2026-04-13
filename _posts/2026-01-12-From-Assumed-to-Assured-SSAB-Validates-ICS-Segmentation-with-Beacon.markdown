@@ -19,10 +19,10 @@ SensorFu Beacon is a solution that allows the functionality of network isolation
 
 >“Deploying Beacon was extremely easy. Actual deploying took approximately five minutes including the coffee break,” says Pertti Valtonen, OT Service Manager at SSAB.
 
->“Configuring and downloading the beacons from the management interface was smooth, and there was no need to read the instructions at all. 
-SSAB had deployed beacons as both virtual and physical devices. Some minor delays were found when the IT solution supplier did the virtual machine deployment to an HCI environment. SensorFu’s support has also been very well available.”
+Configuring and downloading the beacons from the management interface was smooth, and there was no need to read the instructions at all. 
+SSAB had deployed beacons as both virtual and physical devices. Some minor delays were found when the IT solution supplier did the virtual machine deployment to an HCI environment. SensorFu’s support has also been very well available.
 
->“After deploying the Beacons, results were found immediately. We caught an old firewall rule that allowed traffic to pass from one network segment to another. After finding this vulnerability the corrections were made quickly.”
+After deploying the Beacons, results were found immediately. We caught an old firewall rule that allowed traffic to pass from one network segment to another. After finding this vulnerability the corrections were made quickly.
 
 The problems found with SensorFu Beacon were not surprising as environments that have been in place for so long have unfortunately deteriorated slightly. There’s been turbulence in the processes and over time old firewall rule openings that were necessary at the time may have remained in the environment.
 
