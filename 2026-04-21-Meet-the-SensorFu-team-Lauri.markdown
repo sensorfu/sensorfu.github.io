@@ -21,7 +21,7 @@ My background is in industrial automation engineering, and I have been building 
 SensorFu company is more of a startup mindset company than the previous places. Things happen fast internally and the organization is rather flat. 
 
 **What motivated you to get involved in cybersecurity?**
-I have always been interested in networks and computers, and finding ways to circumvent different limitations. In previous workplaces I was working with the networks and firewalls in OT environments, and saw how easy it would be to improve cyber security with simple automated solutions. In industrial environments, simple and effective things matter and the very simple and straightforward nature of Beacon is what caught my attention. When I got invited to SensorFu to work with Beacon, I couldn't turn down the offer.
+I have always been interested in networks and computers, and finding ways to circumvent different limitations. In previous workplaces I was working with the networks and firewalls in OT environments, and saw how easy it would be to improve cyber security with simple automated solutions.
 
 **What is the one cybersecurity trend or threat that you think more people should be paying attention to right now?**
 Modern threats come from AI and the related pace of malware development. To remedy this, especially in OT environments, getting back to basics should be the trend. Proactive cybersecurity (in a form of ensuring segmentation for example) would go a long way, in a simple, affordable and effective way. Once the base is built well, the modern threats have a hard time succeeding no matter how sophisticated they are.
