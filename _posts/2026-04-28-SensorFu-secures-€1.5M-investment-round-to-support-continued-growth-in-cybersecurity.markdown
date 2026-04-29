@@ -12,8 +12,8 @@ SensorFu has completed an €1.5 million investment round, led by Nordic Option.
 
 The investment will be used to expand into new markets and further develop SensorFu’s product offering, enabling new possibilities to enhance cyber resilience in business-critical environments.
 
->We appreciate the continued support from our existing investors and are pleased to welcome new ones on board,” said **Mikko Kenttälä**, CEO of SensorFu.
->“This allows us to keep building capabilities that help organizations get the fundamentals right and to bring them to more customers.”
+>"Cybersecurity is moving at an electrifying pace. As critical infrastructure and operational technology seek isolation and AI gains agency, the demand for continuous verification of cyber isolation has never been higher,” said **Mikko Kenttälä**, CEO of SensorFu.
+>“This funding allows us to scale our global reach and help secure these critical environments with the fundamental security controls they deserve.”
 
 >“SensorFu represents a team with deep, hands-on background in cybersecurity and a very pragmatic approach to solving real-world problems,” said Teemu Puumalainen, investment director at Nordic Option. “What stands out is that this is already validated in practice — the company has built a credible customer base including large organizations across multiple countries. That gives a solid foundation to scale further.”
 
