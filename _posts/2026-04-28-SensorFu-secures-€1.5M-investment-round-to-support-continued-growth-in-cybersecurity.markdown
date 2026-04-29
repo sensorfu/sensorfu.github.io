@@ -17,9 +17,6 @@ The investment will be used to expand into new markets and further develop Senso
 
 >“SensorFu represents a team with deep, hands-on background in cybersecurity and a very pragmatic approach to solving real-world problems,” said Teemu Puumalainen, investment director at Nordic Option. “What stands out is that this is already validated in practice — the company has built a credible customer base including large organizations across multiple countries. That gives a solid foundation to scale further.”
 
-
->“What stands out is that this is already validated in practice — the company has built a credible customer base including large organizations across multiple countries. That gives a solid foundation to scale further.”
-
 Gorilla Capital’s approach to building companies fits well with how we think about developing both the product and the business — through continuous learning and staying close to real customer environments. 
 >“SensorFu has built its product around a clear and critical need, and the team has demonstrated this value with demanding customers,” says Risto Rautakorpi, Partner at Gorilla Capital.
 >“Their disciplined, hands-on approach and deep domain understanding create a strong foundation for consistent progress. We value how the team stays close to real-world environments and turns that learning into practical product development.”
