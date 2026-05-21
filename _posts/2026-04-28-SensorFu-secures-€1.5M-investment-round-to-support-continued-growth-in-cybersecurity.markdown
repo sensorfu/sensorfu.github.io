@@ -5,7 +5,7 @@ date: 2026-04-28 09:00:00 +0200
 category: article
 tags:
 - article
-image: /assets/img/articles/Meet the team Mikko Kenttala web.jpg
+image: /assets/img/articles/Meet_the_team_Mikko_Kenttala_web.jpg
 image_alt: Mikko Kenttälä
 ---
 SensorFu has completed an €1.5 million investment round, led by Nordic Option. The funding comes from both current shareholders and new investors, **Gorilla Capital**, **Korpun Siemen** and **angel investors** in the cybersecurity domain. The round is complemented by a public grant component.
