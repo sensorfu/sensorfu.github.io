@@ -1,7 +1,7 @@
 ## Data controller contact details
 
 SensorFu Oy<br/>
-Teknologiantie 11<br/>
+Teknologiantie 16<br/>
 90590 Oulu<br/>
 Finland<br/>
 Email: contact@sensorfu.com<br/>
