@@ -5,6 +5,8 @@ date: 2026-05-27 09:30:00 +0200
 category: article
 tags:
 - article
+image: /assets/img/articles/terrafame.jpeg
+image_alt: Terrafame
 ---
 
 In many of the environments our clients operate in, cybersecurity extends far beyond traditional IT concern. These organizations often rely on OT (Operational Technology) systems, where one of the biggest challenges is the long lifespan of industrial equipment.
