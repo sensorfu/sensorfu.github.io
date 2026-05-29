@@ -15,4 +15,4 @@ The cybersecurity of services critical to society can be improved with scalable 
 
 Companies should also invest in monitoring the functionality of production networks’ important information security controls, such as network isolation. The need is illustrated by the finding made in the project, in which 81% of the participant organisations’ networks that were intended to be isolated leaked in unexpected ways.
 
-[Read the whole report](https://www.kyberturvallisuuskeskus.fi/en/ajankohtaista/toteutettavuustutkimus)
+[Read the whole report](https://www.kyberturvallisuuskeskus.fi/files/media/file/TONTTU-raportti_EN_FINAL.pdf){:target="_new"}

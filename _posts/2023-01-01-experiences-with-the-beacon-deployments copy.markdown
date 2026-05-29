@@ -15,4 +15,4 @@ What SensorFu Beacon offers for network segregation monitoring?
 How and why network segregation can fail?
 What we have learned doing real world Beacon deployments?
 
-[Download](https://sensorfu.com/whitepapers/SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf)
+[Download](https://sensorfu.com/whitepapers/SensorFu-whitepaper-Experiences-with-Beacon-deployments.pdf){:target="_new"}

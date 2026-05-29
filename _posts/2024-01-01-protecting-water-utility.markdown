@@ -17,4 +17,4 @@ Why critical infrastructure must be protected from cyber threats?
 What is Locked Shields?
 How SensorFu Beacon protected water treatment plant?
 
-[Download](https://sensorfu.com/whitepapers/Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf)
+[Download](https://sensorfu.com/whitepapers/Protecting-water-utility-against-nation-state-cyber-adversary-Whitepaper.pdf){:target="_new"}
