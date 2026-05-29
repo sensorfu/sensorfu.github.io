@@ -5,7 +5,7 @@ date: 2026-04-08 09:30:00 +0200
 category: article
 tags:
 - article
-image: /assets/img/articles/Meet the team Mikko Kenttala web.jpg
+image: /assets/img/articles/Meet_the_team_Mikko_Kenttala_web.jpg
 image_alt: Mikko Kenttälä
 ---
 
