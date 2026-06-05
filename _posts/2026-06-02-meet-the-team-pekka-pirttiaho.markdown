@@ -8,6 +8,9 @@ tags:
 image: /assets/img/articles/Meet_Pekka_web.jpg
 image_alt: Pekka Pirttiaho
 ---
+Our Cyber Spotlight series continues! This week, we’re moving to the front lines of our growth and introduce you to Pekka Pirttiaho, our Head of Sales and Marketing.
+
+Pekka is the bridge between our deep-tech innovations and the organizations that need them. In an industry often clouded by buzzwords and "sales-speak," Pekka is known for his clarity, and his ability to translate complex cyber-defense into actionable business strategy.
 
 **What’s your role at the company, and what does a typical day look like for you**?
 
