@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet the SensorFu team - Anu Laitila"
-date: 2026-06-15 12:30:00 +0200
+date: 2026-06-16 12:30:00 +0300
 category: article
 tags:
 - article
