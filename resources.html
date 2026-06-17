@@ -34,7 +34,7 @@ redirect_from:
       <h1>Articles</h1>
 
       <div class="posts-container pt-4">
-        {% for post in site.categories.article limit:3 %}
+        {% for post in site.categories.article limit:9 %}
         <div class="post-card bg-light">
             <div class="post-header">
             {% if post.tags and post.tags != empty %}
@@ -60,16 +60,30 @@ redirect_from:
         {% endfor %}
       </div>
 
-      <div class="post-list-minimal mt-5 px-4">
-        {% for post in site.categories.article offset:3 %}
-        <p class="mb-3">
-          <span class="me-2" aria-hidden="true">&raquo;</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="text-muted small">
-            — {{ post.date | date: "%B %-d, %Y" }}
-          </span>
-        </p>
-        {% endfor %}
+      <p class="mt-5 px-4">
+        <a
+          href="#articlesArchive"
+          data-bs-toggle="collapse"
+          role="button"
+          aria-expanded="false"
+          aria-controls="articlesArchive"
+        >
+          Show article archive &rarr;
+        </a>
+      </p>
+
+      <div class="collapse" id="articlesArchive">
+        <div class="post-list-minimal px-4">
+          {% for post in site.categories.article offset:9 %}
+          <p class="mb-3">
+            <span class="me-2" aria-hidden="true">&raquo;</span>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <span class="text-muted small">
+              — {{ post.date | date: "%B %-d, %Y" }}
+            </span>
+          </p>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
@@ -81,7 +95,7 @@ redirect_from:
       <h1>Whitepapers</h1>
 
       <div class="posts-container pt-4">
-        {% for post in site.categories.whitepaper limit:3 %}
+        {% for post in site.categories.whitepaper limit:9 %}
         <div class="post-card bg-light">
           <div class="post-header">
             <div class="post-tag">{{ post.categories | first }}</div>
