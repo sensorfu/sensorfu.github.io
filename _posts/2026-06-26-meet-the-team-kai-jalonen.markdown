@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet the SensorFu team - Kai Jalonen"
-date: 2026-06-02 09:30:00 +0200
+date: 2026-06-26 09:30:00 +0300
 category: article
 tags:
 - article
