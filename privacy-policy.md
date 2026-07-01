@@ -2,6 +2,9 @@
 layout: default
 permalink: privacy-policy.html
 title: Privacy policy for www.sensorfu.com
+redirect_from:
+  - /eula
+  - /eula/
 ---
 
 # Privacy Policy
