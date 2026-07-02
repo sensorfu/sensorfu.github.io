@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beacon: Escape Testing and Common Leaks"
-date: 2026-7-2 10:30:00 +0200
+date: 2026-07-02 10:30:00 +0200
 category: article
 tags:
 - article
@@ -14,7 +14,7 @@ To address this, Beacon uses a dual-cycle testing approach that balances rapid d
 
 Complementing this is a longer, more comprehensive testing cycle that typically spans 4-14 days, depending on network conditions. Operating with a low traffic profile, it  systematically evaluates network isolation across the environment, providing deep coverage while minimizing impact on production systems.
 
-<br />***SensorFu Beacon runs the following tests:***
+***SensorFu Beacon runs the following tests:***
 - The Basics:  TCP and UDP over IPv4 and IPv6 → All ports.
 - DNS Tunneling: Use name server infrastructure to covertly sneak out.
 - Broadcasting: Trigger improper routing decision in multihomed devices.
@@ -22,7 +22,6 @@ Complementing this is a longer, more comprehensive testing cycle that typically 
 - ICMP:	Often overlooked during firewall and segmentation reviews, ICMP can still create unexpected communication paths if not properly controlled.
 - IP payload: Find leaks related to easily forgotten protocols like IGMP and L2TP.
 - TLS  test: A content-aware firewall may pass TLS connections through the controls.
-<br />
 
 ## The Most Common Network Leaks
 
@@ -30,12 +29,12 @@ Over the years our clients have found some pretty interesting leaks, ones that m
 
 The second most common leak involves [Ethernet broadcast](https://medium.com/sensorfu/why-ethernet-broadcast-tests-matter-6d17924b5233). In these cases, a broadcast message, typically a DNS query, is sent onto the local network where another device receives it and forwards it to the internet, creating an unintended communication path.
 
-<br />![Beacon Leaks](/assets/img/articles/leaks.png) 
+![Beacon Leaks](/assets/img/articles/leaks.png) 
 
 ***Occurrence of the most commonly observed leaks from the past 90 days***
 
 
-<br />Most leaks are discovered quickly, many times within minutes of deployment or at least within the first day of testing. In fact approximately 80% of our customers reveal at least one unintended communication path. This figure has been backed up with a [feasibility study](https://www.kyberturvallisuuskeskus.fi/files/media/file/TONTTU-raportti_EN_FINAL.pdf) that was done by the National Cyber Security Centre Finland of the Finnish Transport and Communications Agency Traficom.  
+Most leaks are discovered quickly, many times within minutes of deployment or at least within the first day of testing. In fact approximately 80% of our customers reveal at least one unintended communication path. This figure has been backed up with a [feasibility study](https://www.kyberturvallisuuskeskus.fi/files/media/file/TONTTU-raportti_EN_FINAL.pdf) that was done by the National Cyber Security Centre Finland of the Finnish Transport and Communications Agency Traficom.  
 
 Our newest technique,  the TLS Hello escape has proven really interesting.  In several real-world cases, security products have successfully blocked outbound traffic but then attempted to inspect or classify the connection, generating their own DNS queries to external services in the process. 
 
@@ -46,7 +45,7 @@ We have found that environments that combine IT and OT networks often reveal the
 That doesn’t mean that  heavily segmented and isolated environments, such as power generation facilities, don't also contain leaks. In many cases, the root cause has been third-party technology behavior or simple human error for example, when a retired device was calling home. 
 
 
-## <br />Continuous Validation Matters
+## Continuous Validation Matters
 
 Network security is never finished. Maintaining compliance with security requirements such as NIS2 and DORA, as well as effective network segmentation and isolation, requires continuous validation rather than periodic assumptions. Controls that are effective today can become ineffective tomorrow as a result of configuration changes, software updates, infrastructure modifications, human error, or the introduction of new devices and services.
 
