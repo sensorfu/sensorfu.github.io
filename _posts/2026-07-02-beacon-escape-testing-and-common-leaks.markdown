@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beacon: Escape Testing and Common Leaks"
-date: 2026-07-02 10:30:00 +0200
+date: 2026-07-02 10:30:00 +0300
 category: article
 tags:
 - article
