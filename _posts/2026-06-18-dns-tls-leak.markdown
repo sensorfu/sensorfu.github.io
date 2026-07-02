@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "When Security Products Create Unexpected DNS Covert Channels"
-date: 2026-6-18 10:30:00 +0200
+date: 2026-06-18 10:30:00 +0300
 category: article
 tags:
 - article
