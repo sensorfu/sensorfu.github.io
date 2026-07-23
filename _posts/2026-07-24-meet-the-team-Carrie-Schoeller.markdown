@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet the SensorFu team - Carrie Schoeller"
-date: 2026-07-24 07:00:00 +0300
+date: 2026-07-23 09:00:00 +0300
 category: article
 tags:
 - article
