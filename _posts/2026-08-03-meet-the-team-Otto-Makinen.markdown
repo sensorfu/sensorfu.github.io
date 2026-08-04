@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meet the SensorFu team - Otto Mäkinen"
-date: 2026-08-23 07:30:00 +0300
+date: 2026-08-04 07:30:00 +0300
 category: article
 tags:
 - article
