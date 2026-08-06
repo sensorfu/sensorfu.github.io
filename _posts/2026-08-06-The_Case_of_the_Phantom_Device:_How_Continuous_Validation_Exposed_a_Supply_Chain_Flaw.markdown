@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Case of the "Phantom" Device: How Continuous Validation Exposed a Supply Chain Flaw"
+title: "The Case of the Phantom Device: How Continuous Validation Exposed a Supply Chain Flaw"
 date: 2026-08-06 10:30:00 +0300
 category: article
 tags:
@@ -42,7 +42,7 @@ In this case, someone had accidentally connected the improperly erased, retired 
   
 + **Supply Chain Processes Need Auditing:** Decommissioning workflows managed by third-party service providers must be strictly audited and enforced to ensure hardware is securely sanitized before removal.
   
-+ **Asset Lifecycle Governance is Critical:** Retirement procedures—from physical storage to e-waste disposal—require clear oversight to prevent retired assets from becoming active security liabilities.
++ **Asset Lifecycle Governance is Critical:** Retirement procedures from physical storage to e-waste disposal—require clear oversight to prevent retired assets from becoming active security liabilities.
 
 Thanks to the Beacon's immediate alert, the offending device was properly decommissioned, and the client was able to address a critical supply chain failure in their hardware lifecycle management.
 
