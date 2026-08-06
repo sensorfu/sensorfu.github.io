@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beacon: Escape Testing and Common Leaks"
+title: "SensorFu Beacon: Escape Testing and Common Leaks"
 date: 2026-07-02 10:30:00 +0300
 category: article
 tags:
@@ -10,18 +10,19 @@ image_alt: Beacon tests and common leaks
 ---
 Security failures can emerge at any layer of the network, whether through firewall rules, routing configurations, VLAN segmentation, switch settings, cabling mistakes, or third-party integrations. As environments grow and change, being able to continuously verify that every control is still behaving  as intended becomes a significant challenge. 
 
-To address this, Beacon uses a dual-cycle testing approach that balances rapid detection with extensive coverage. A short testing loop runs approximately every 30 minutes, focusing on the most critical communication paths, hand picked list of the most important TCP and UDP ports, and common escape techniques to provide near real-time visibility into network segmentation effectiveness and quickly identify newly introduced leaks. 
+To address this, SensorFu Beacon uses a dual-cycle testing approach that balances rapid detection with extensive coverage. A short testing loop runs approximately every 30 minutes, focusing on the most critical communication paths, hand picked list of the most important TCP and UDP ports, and common escape techniques to provide near real-time visibility into network segmentation effectiveness and quickly identify newly introduced leaks. 
 
 Complementing this is a longer, more comprehensive testing cycle that typically spans 4-14 days, depending on network conditions. Operating with a low traffic profile, it  systematically evaluates network isolation across the environment, providing deep coverage while minimizing impact on production systems.
 
 ***SensorFu Beacon runs the following tests:***
-- The Basics:  TCP and UDP over IPv4 and IPv6 → All ports.
-- DNS Tunneling: Use name server infrastructure to covertly sneak out.
-- Broadcasting: Trigger improper routing decision in multihomed devices.
-- Spoofing: Bypass firewalls and routers with spoofed IP packets.
-- ICMP:	Often overlooked during firewall and segmentation reviews, ICMP can still create unexpected communication paths if not properly controlled.
-- IP payload: Find leaks related to easily forgotten protocols like IGMP and L2TP.
-- TLS  test: A content-aware firewall may pass TLS connections through the controls.
+* **The Basics:** TCP and UDP over IPv4 and IPv6 across all ports.
+* **DNS Tunneling:** Uses name server infrastructure to covertly sneak data out.
+* **Broadcasting:** Triggers improper routing decisions in multihomed devices.
+* **Spoofing:** Bypasses firewalls and routers using spoofed IP packets.
+* **ICMP:** Uncovers unexpected communication paths through ICMP, which is often overlooked during firewall and segmentation reviews.
+* **IP Payload:** Finds leaks related to easily forgotten protocols like IGMP and L2TP.
+* **TLS Test:** Identifies content-aware firewalls that may pass TLS connections through existing controls.
+
 
 ## The Most Common Network Leaks
 
