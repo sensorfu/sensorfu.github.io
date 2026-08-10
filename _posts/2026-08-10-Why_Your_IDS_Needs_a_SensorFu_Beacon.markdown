@@ -42,6 +42,7 @@ Beacon was designed for environments where network isolation is a fundamental re
 Here are some examples of how SensorFu Beacon works alongside well known IDS products.
 
 ### Common IDS Products Compared to SensorFu Beacon 
+
 | Company | Product Type | What it Does Best | What SensorFu Beacon Adds |
 | :--- | :--- | :--- | :--- | 
 | **Snort** | Open-source IDS/IPS | Signature-based attack detection | Continuous validation of segmentation controls | 
