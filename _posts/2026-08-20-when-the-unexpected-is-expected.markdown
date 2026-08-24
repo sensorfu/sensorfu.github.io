@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When the unexpected is expected"
+title: "When the Unexpected is Expected"
 date: 2026-08-20 09:30:00 +0300
 category: article
 tags:
