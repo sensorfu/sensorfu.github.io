@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Verifying Network Isolation Without Disrupting Legacy OT Environments"
-date: 2026-08-20 09:30:00 +0300
+date: 2026-08-25 09:30:00 +0300
 category: article
 tags:
 - article
