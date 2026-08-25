@@ -9,7 +9,7 @@ image: /assets/img/articles/ot-and-signal.jpg
 image_alt: Verifying Network Isolation in Legacy OT Environments 
 ---
 
-## Verification without breaking the Legacy environment
+
 Many industrial systems used today were built decades ago to run non-stop for years. In these environments, keeping systems up and running safely is the top requirement.
 Because of this, companies often prefer to live with older, known risks rather than try new security tools that might cause problems. Many older networks have unrecorded firewall rules, aging equipment, unsegmented networks, and unknown dependencies. These risks are often accepted simply because they have existed for years without causing a breakdown.
 Cybersecurity teams know they need to fix these issues, but it is hard to know where to start. Many security tools claim to be "passive" or "non-invasive", meaning they won't disturb the network, but OT teams need real proof before they can trust those claims.
