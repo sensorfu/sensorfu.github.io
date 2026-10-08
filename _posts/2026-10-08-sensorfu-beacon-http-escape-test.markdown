@@ -29,6 +29,6 @@ The HTTP test also looks at how security infrastructure handles the request. The
 This means a single HTTP escape can potentially reveal two observable paths: the HTTP request reaching Beacon Home directly, and a secondary DNS-based path triggered by security infrastructure. This capability allows SensorFu Beacon to identify not only direct protocol escapes, but also covert communication channels created by the systems intended to protect the network.
 
 ## Launch and feedback
-We look forward to our client’s feedback on the new HTTP test when version 4.16 launches. Keep an eye out for the update and make sure to upgrade your SensorFu Beacons!
+We look forward to our client’s feedback on the new HTTP test now that it has been released. Keep an eye out for the update and make sure to upgrade your SensorFu Beacons!
 
 
