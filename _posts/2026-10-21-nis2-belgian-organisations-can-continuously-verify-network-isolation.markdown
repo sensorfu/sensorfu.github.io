@@ -5,7 +5,7 @@ date: 2026-10-21 09:00:00 +0300
 category: article
 tags:
 - article
-image: /assets/img/articles/nic-belgium.jpg
+image: /assets/img/nic-belgium.jpg
 image_alt: Verify Network Isolation
 ---
 
